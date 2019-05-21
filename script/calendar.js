@@ -1,7 +1,7 @@
 var today = new Date();
 var currentMonth = today.getMonth();
 var currentYear = today.getFullYear();
-var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 function loadCalendar() {
     document.getElementById("daysBody").innerHTML = "";
