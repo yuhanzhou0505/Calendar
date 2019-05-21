@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top
+{
+    height:40px;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right:40px;
+    padding-top:5px;
+    font-size:23px;
+    font-weight: bolder;
+}
+
+.content
+{
+    height: calc(100% - 50px);
+}
+
+.calendar
+{
+    width: calc(100% - 200px);
+    padding: 20px;
+    border:solid 1px #ddd;
+    height: auto;
+    float: left;
+    border-radius: 8px;
+}
+
+.calendar .dates .header
+{
+    height: 35px;
+    border-bottom:solid 1px #ddd;
+}
+
+.calendar .dates .header .day
+{
+    float:left;
+    width: 10%;
+    padding: 1%;
+    margin: 1%;
+    font-size:13pt;
+    text-align:center;
+}
+
+.calendar .dates .header .day.label
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+.calendar .dates .header .day.label.red
+{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.calendar .dates .daysBody .day
+{
+    float:left;
+    width: 10%;
+    padding: 1%;
+    margin: 1%;
+    font-size:13pt;
+    text-align:center;
+    border-bottom:solid 1px #ddd;
+}
+
+.calendar .dates .daysBody .day.empty 
+{
+    border:none;
+}
+
+.calendar .dates .daysBody .day.label 
+{
+    color: #000000;
+    font: 500;
+    border:none;
+}
+
+.arrow 
+{
+    float: left;
+    width: 35px;
+    max-height: 35px;
+    margin-top:18%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    font-size:30px;
+    font-weight: bold;
+    color: #ffffff;
+    border:solid 1px #ddd;
+    background-color: #ddd;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+
