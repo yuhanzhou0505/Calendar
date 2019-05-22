@@ -40,6 +40,13 @@ body {
     border-bottom:solid 1px #ddd;
 }
 
+.calendar .dates .seperator 
+{
+    float: left;
+    width: 100%;
+    border:solid 0.5px #ddd;
+}
+
 .calendar .dates .header .day
 {
     float:left;
